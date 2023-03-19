@@ -37,9 +37,18 @@ public class Clase3 {
                     }
                     return nums;
                 }
-            /** punto_c **/
-
+            public static int punto_c(int[] numeros, int X) {
+                int sum = 0;
+                for (int i = 0; i < numeros.length; i++) {
+                    if (numeros[i] > X) {
+                        sum += numeros[i];
+                    }
+                }
+                return sum;
+            }
         }
-
+        class ejercicio_2 {
+            /** codigo **/
+        }
     }
 }
