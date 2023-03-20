@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e90d5d2e-a1d9-4758-a672-af61fc3fd917" name="Changes" comment="Commit de la clase 3, punto a y b listos.">
+    <list default="true" id="e90d5d2e-a1d9-4758-a672-af61fc3fd917" name="Changes" comment="Commit de la clase 3, ejercicio 1 completado, falta ejercicio 2.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679267768613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit de la clase 3, ejercicio 1 completado, falta ejercicio 2.">
+      <created>1679268477483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679268477483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit de la clase 3 aun sin hacer nada." />
     <MESSAGE value="Commit de la clase 3, punto a listo." />
     <MESSAGE value="Commit de la clase 3, punto a y b listos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit de la clase 3, punto a y b listos." />
+    <MESSAGE value="Commit de la clase 3, ejercicio 1 completado, falta ejercicio 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit de la clase 3, ejercicio 1 completado, falta ejercicio 2." />
   </component>
 </project>

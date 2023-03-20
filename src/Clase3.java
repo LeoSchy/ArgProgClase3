@@ -1,3 +1,4 @@
+import javax.swing.event.MenuEvent;
 import java.lang.String;
 public class Clase3 {
     public static void main(String[] args) {
@@ -48,7 +49,29 @@ public class Clase3 {
             }
         }
         class ejercicio_2 {
-            /** codigo **/
+            private static String ABECEDARIO = " abcdefghijklmnñopqrstuvwxyz";
+
+            public static String codificar(String sentencia, int numeroCambio) {
+                String codificado = "";
+                for (int i = 0; i < sentencia.length(); i++) {
+                    char letra = sentencia.charAt(i);
+                    int posActual = ABECEDARIO.indexOf(letra);
+                    int nuevaPos = (posActual + numeroCambio) % ABECEDARIO.length();
+                    codificado += ABECEDARIO.charAt(nuevaPos);
+                }
+                return codificado;
+            }
+
+            public static String decodificar(String codificado, int numeroCambio) {
+                String decodificado = "";
+                for (int i = 0; i < codificado.length(); i++) {
+                    char letra = codificado.charAt(i);
+                    int posActual = ABECEDARIO.indexOf(letra);
+                    int nuevaPos = (posActual - numeroCambio + ABECEDARIO.length()) % ABECEDARIO.length();
+                    decodificado += ABECEDARIO.charAt(nuevaPos);
+                }
+                return decodificado;
+            }
         }
     }
 }
